@@ -1,0 +1,153 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  overflow-x: hidden;
+  margin-top: 0; /* Ajouter cette ligne pour supprimer la marge supérieure */
+}
+
+.banner {
+  position: relative;
+  background-image: url("ksa logo.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: #4D27B2;
+  padding: 50px; /* Ajoutez cette ligne pour ajouter une marge de 50px autour de la bannière */
+  height: 500px;
+  width: 100%;
+  top: 0;
+}
+
+.btn-blue {
+  position: absolute; /* Ajoutez cette ligne pour définir le bouton en tant que position absolue */
+  top: 500px; /* Définissez la distance verticale par rapport au bord supérieur de la bannière */
+  left: 83.5%; /* Définissez la distance horizontale par rapport au bord gauche de la bannière */
+  transform: translate(-50%, -50%); /* Pour centrer le bouton */
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;s
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: #4D27B2;
+	color: white;
+}
+.btn-purple {
+  background-color: #4D27B2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.btn-purple:hover {
+	background-color: blue;
+	color: white;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center; /* Ajoutez cette ligne pour centrer le texte */
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50% !important;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card img{
+  width: 150px;
+  border-radius: 4px
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+  border-radius: 4px;
+  margin: 25px 0px;
+  flex-basis: 500px;
+  text-align: left; /* Centrer le texte à l'intérieur de la carte */
+  margin: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+
+.card h3 {
+  padding-left: 50px;
+  font-size: 24px;
+  height: 100px;
+}
+
+.card p {
+  text-align: left !important; /* Ajouter !important pour forcer l'alignement à gauche */
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 50px;
+}
+
+
+a{	
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+	font-size: 30px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: blue;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #4D27B2;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:bold;
+
+
+
